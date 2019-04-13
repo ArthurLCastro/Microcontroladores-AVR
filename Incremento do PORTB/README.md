@@ -1,8 +1,11 @@
-# Incremento do PORTB
+# LEds no PORTB
 Incrementa o valor do PORTB de 0x00 a 0xFF.
 Obs.: Só serão aparentes nos LEDs até o valor 0x1F
 
-## Hardware - LEDs no PORTB:
+## Software:
+Grave o programa [main.c](https://github.com/ArthurLCastro/Microcontroladores-AVR/blob/master/Incremento%20do%20PORTB/main.c) no AVR.
+
+## Hardware:
 * ATtiny85
 * 5 LEDs
 * Resistores de 1kohm para cada LED
