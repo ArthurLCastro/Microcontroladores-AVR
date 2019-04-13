@@ -17,7 +17,7 @@ int main(void)
 	
     while (1) 
     {
-		PORTB++;				// Incrementa o PORTB
+		PORTB++;			// Incrementa o PORTB
 		_delay_ms(500);
     }
 }
