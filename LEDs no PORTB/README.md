@@ -1,4 +1,4 @@
-# LEds no PORTB
+# LEDs no PORTB
 Incrementa o valor do PORTB de 0x00 a 0xFF.
 Obs.: Só serão aparentes nos LEDs até o valor 0x1F
 
