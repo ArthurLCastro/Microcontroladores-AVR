@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	DDRB =  0b11111111;			// Seta o PORTB como saída
+	DDRB =  0b11111111;			// Seta o PORTB como saÃ­da
 	PORTB = 0b00000000;			// Inicia o PORTB com valor 0
 	
     while (1) 
