@@ -2,7 +2,8 @@
 Controla o estado de um LED através de um botão
 
 ## Software:
-Grave o programa [main.c](https://github.com/ArthurLCastro/Microcontroladores-AVR/blob/master/Acender%20LED%20por%20Pushbutton/main.c) no AVR.
+* Para acender o LED enquanto o Pushbutton estiver pressionado, grave o programa [Acender LED](https://github.com/ArthurLCastro/Microcontroladores-AVR/blob/master/Acender%20LED%20por%20Pushbutton/Acender%20LED/main.c) no AVR.
+* Para controlar o estado LED com o Pushbutton, grave o programa [Controlar LED](https://github.com/ArthurLCastro/Microcontroladores-AVR/blob/master/Acender%20LED%20por%20Pushbutton/Controlar%20LED/main.c) no AVR.
 
 ## Hardware:
 * ATtiny85
