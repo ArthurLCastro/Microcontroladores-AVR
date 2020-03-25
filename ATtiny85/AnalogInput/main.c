@@ -5,6 +5,10 @@
  * Author : Arthur Castro
  */ 
 
+#ifndef __AVR_ATtiny85__
+    #define __AVR_ATtiny85__
+#endif
+
 #include <avr/io.h>
 
 int main(void){

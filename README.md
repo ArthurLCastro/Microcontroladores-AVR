@@ -39,27 +39,27 @@ Repositório destinado ao compartilhamento e armazenamento de códigos simples e
 O VScode precisa de algumas configurações para reconhecer as bilbiotecas e ajudar na digitação dos códigos para cada microcontrolador. No diretório "Configurando-VScode" está um exemplo das que fiz.
 
 ### **Inclusão de Bibliotecas:**
-Por padrão o arquivo [c_cpp_properties.json](/Configurando-VScode/.vscode/c_cpp_properties.json) vem em "includePath" apenas com a linha
+Por padrão o arquivo **c_cpp_properties.json** encontrado em **.vscode** vem com uma única configuração chamada **Win32**.
 
-```
-"${workspaceFolder}/**"
-```
+O que faremos é adicionar uma nova configuração chamada **AVRs** que essencialmente adiciona apenas o caminho para as bibliotecas em "includePath".
 
-E é necessário adicionar o caminho em que se encontram as bilbiotecas como no exemplo abaixo:
+Exemplo:
 
-```
+```json
 "${workspaceFolder}/**",
 "C:\\WinAVR-20100110\\avr\\include"
 ```
 
-O acesso a este arquivo pode ser feito através do atalho **Ctrl+Shift+P** e em seguida selecionando a opção **C/C++: Edit Configurations (JSON)**
+[Este é o arquivo "c_cpp_properties.json" modificado.](/.vscode/c_cpp_properties.json)
+
+> *Observação:* </br> O acesso a este arquivo pode ser feito através do atalho **Ctrl+Shift+P** e em seguida selecionando a opção **C/C++: Edit Configurations (JSON)**
 
 ### **Reconhecer o Microcontrolador:**
 Para que o VScode reconheça o microcontrolador em uso e ajude no complemento de palavras, deve-se adicionar a definição do mesmo ao início do código.
 
 Como exemplo o aquivo [main.c](/Configurando-VScode/main.c) para o microcontrolador ATtiny85:
 
-```
+```c
 #ifndef __AVR_ATtiny85__
     #define __AVR_ATtiny85__
 #endif

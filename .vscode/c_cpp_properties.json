@@ -3,6 +3,21 @@
         {
             "name": "Win32",
             "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x86"
+        },
+        {
+            "name": "AVRs",
+            "includePath": [
                 "${workspaceFolder}/**",
                 "C:\\WinAVR-20100110\\avr\\include"
             ],
