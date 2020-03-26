@@ -68,7 +68,7 @@ Como exemplo o aquivo [main.c](/Configurando-VScode/main.c) para o microcontrola
 A definição para cada microcontrolador se encontra no arquivo **io.h**. Podendo ser acessado clicando com o botão direito em **#include <avr/io.h>** e em "Go to definition"
 
 ## **Automatizando com o arquivo _Makefile_**
-Através de um arquivo *Makefile*, como [este](/Configurando-VScode/Makefile), podemos compilar e gravar o codigo com apenas um comando.
+Através de um arquivo *Makefile*, como [este](/Exemplo-de-Makefile/Makefile), podemos compilar e gravar o codigo com apenas um comando.
 
 > *Observação:* </br> Este arquivo deve estar na mesma pasta que seu código em C/C++
 
